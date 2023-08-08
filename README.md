@@ -16,6 +16,15 @@ data[data["Car Brand"] == 'Hyundai']['Model'].unique()
 
 Here you can replace "Hyundai" with the brand you would like to predict and look for all the available models in it.
 
+#### Location, Gear & Fuel:
+Execute this to get the locations and fuel type available in the dataset
+
+data["Location"].unique()
+
+data["Gear"].unique()
+
+data["Fuel"].unique()
+
 ### Result and Output:
 Result gives you a dataframe comparing the actual and predicted values along with the percentage of residuals for each sample.
 Output is the the prediction you are looking for.
