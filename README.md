@@ -1,7 +1,7 @@
 # Cars24_2021
 
 ### Introduction:
-This code gives you the price of a preowned car from the site Cars24. I found this beautiful dataset in Kaggle which consists of 5900 records of used cars data. This includes all types of cars from hatchback to lux_sedan ranging from 1.2L to 65L rupees. But I have only considered the data ranging from the lowest to 15L only considering the availability of data as it leads to better accuracy. Also I am not that type of person who risks to invest such huge amout of money in a preowned car. These factors made this model more practical. I achieved a cross validation score of 89.12% accuracy. 
+This code gives you the price of a preowned car from the site Cars24. I found this beautiful dataset in Kaggle which consists of 5900 records of used cars data. This includes all types of cars from hatchback to lux_sedan ranging from 1.2L to 65L rupees. But I have only considered the data ranging from the lowest to 15L only considering the availability of data as it leads to better accuracy. Also I am not that type of person who risks to invest such huge amout of money in a preowned car. These factors made this model more practical. I achieved a cross validation r2_score of 0.89. 
 
 ### Input:
 This model takes 9 inputs whose data types are specified in the model. The inputs are most obvious things which a normal person look for. Make sure you give the right input with no spelling mistakes and no extra spaces. Price in the output can be anything as it will be updated by the predicted value in the end and it doesnot affect your training/test data or you model.
